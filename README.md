@@ -10,15 +10,24 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
 ## Equipments Required:
+
 ## Hardware – PCs, Cyclone II , USB flasher
+
 ## Software – Quartus prime
 
-
 ## Theory
- 
+The basic logic gates are categorized into seven types as AND, OR, XOR, NAND, NOR, XNOR, and NOT. These are the important digital devices, mainly based on the Boolean function. Logic gates are used to carry out the logical operations on single or multiple binary inputs and result in one binary output.
 
-## Logic Diagram
 ## Procedure
+1.Use the module and obtain the input and output
+
+2.Assign the input and output
+
+3.Use defined keywords like wire,assign and logic gates to represent the boolean
+
+4.Obtain the RTL diagram and timing diagram
+
+5.End the module usinf the keyword endmodule
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
