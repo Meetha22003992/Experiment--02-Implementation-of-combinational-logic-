@@ -31,7 +31,9 @@ The basic logic gates are categorized into seven types as AND, OR, XOR, NAND, NO
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
 Developed by: Meetha Prabhu
+
 RegisterNumber:  212222240065
 ```
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
