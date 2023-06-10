@@ -33,31 +33,20 @@ The basic logic gates are categorized into seven types as AND, OR, XOR, NAND, NO
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: Meetha Prabhu
 RegisterNumber:  212222240065
-
+```
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-
 module exp2f1(A,B,C,D,f1);
-
 input A,B,C,D;
-
 output f1;
-
 assign f1=(~B&~D)|(A&B&~C)|(~A&B&D);
-
 endmodule
-
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
-
 module exp2(w,x,y,z,f2);
-
 input w,x,y,z;
-
 output f2;
-
 assign f2=(~y&z)|(x&y)|(w&y);
-
 endmodule
-
+```
 */
 
 ## Output:
